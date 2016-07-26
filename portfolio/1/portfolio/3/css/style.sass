@@ -1,0 +1,289 @@
+body
+  margin: 0
+  padding: 0
+  width: 100%
+  height: 100%
+
+.navbar
+  background-color: transparent
+  border: 0
+  margin-top: 40px
+  text-align: center
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  z-index: 5
+
+a.navbar-brand > em
+  font-size: 18pt
+  color: white
+
+.navbar > div > div > a
+  font-family: sans-serif
+  font-size: 18pt
+  color: white
+
+#mainmenu > ul > li > a
+  font-family: sans-serif
+  font-size: 14pt
+  color: white
+  &:hover
+    color: #90a4ae
+
+.menu
+  color: white
+
+.dropdown-menu
+  background-color: transparent
+
+.dropdown-menu > li > a
+  color: white
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+  background-color: transparent
+
+.picture
+  background: url("../img/background.jpg") no-repeat
+  background-position: center top
+  background-size: cover
+  width: 100%
+  height: 103vh
+  margin-top: -113px
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.picture_title > h1
+  font-size: 60pt
+  margin: 0
+  color: white
+
+.picture_title > h3
+  margin: 0
+  color: white
+
+.button_read > button
+  background: rgba(0, 0, 0, 0.7)
+  margin-top: 200px
+  color: #FFFFFF
+  border: 2px solid #FFFFFF
+  border-radius: 3px
+  width: 250px
+  &:hover
+    transform: scale(1.4)
+    background: rgba(0, 0, 0, 0.7)
+    color: #FFFFFF
+  @media all and (max-width: 500px)
+    &:hover
+      transform: scale(1)
+      background: rgba(0, 0, 0, 0.7)
+      color: #FFFFFF
+
+span
+  font-size: 170px
+
+.about
+  background-color: #cfd8dc
+  width: 100%
+  height: auto
+  position: relative
+
+.some_read
+  text-align: center
+  margin-top: 50px
+  margin-bottom: 50px
+
+
+.article
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  @media all and (max-width: 768px)
+    flex-direction: column
+
+.article
+  margin-top: 20px
+
+.article1
+  background: url("../img/case1.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  width: 700px
+  height: 300px
+  @media (max-width: 767px)
+    width: 460px
+  @media (max-width: 480px)
+    width: 300px
+
+
+
+.article2
+  background: url("../img/case2.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  width: 300px
+  height: 300px
+  margin-left: 20px
+  @media (max-width: 767px)
+    margin-left: 0px
+    margin-bottom: 20px
+
+.article4
+  background: url("../img/case3.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  width: 700px
+  height: 300px
+  margin-bottom: 100px
+  @media (max-width: 767px)
+    width: 460px
+  @media (max-width: 480px)
+    width: 300px
+
+
+
+.article3
+  background: url("../img/case4.jpg")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  width: 300px
+  height: 300px
+  margin-right: 20px
+  margin-bottom: 100px
+  @media (max-width: 767px)
+    margin-right: 0px
+    margin-bottom: 20px
+
+
+.article1,
+.article2,
+.article3,
+.article4,
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  cursor: pointer
+
+.article > div > div > h4
+  color: white
+  margin-left: 50px
+  text-align: center
+
+.art1_hover,
+.art2_hover,
+.art3_hover,
+.art4_hover
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  background: rgba(55, 71, 79, 0.7)
+  height: 150px
+
+.description
+  background-color: #fff
+  width: 100%
+  height: auto
+  position: relative
+
+.text
+  display: inline
+  justify-content: center
+  align-items: center
+  position: relative
+
+.text1
+  margin-top: 100px
+  margin-bottom: 80px
+  padding: 20px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.text2
+  @extend .text1
+  text-align: justify
+  font-size: 12pt
+
+.subscribe
+  background-color: #cfd8dc
+  width: 100%
+  height: 350px
+  position: relative
+
+.wciecie
+  background-color: white
+  height: 200px
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+    position: relative
+
+.wciecie:first-child
+  background-color: white
+  height: 200px
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: center
+
+.wciecie > input
+  width: 480px
+  height: 45px
+  border: 1px solid #607d8b
+  border-radius: 0
+
+.letter
+  font-weight: bold
+  font-size: 16pt
+
+.wciecie > button
+  background-color: #000000
+  width: 100px
+  border: 0
+  border-radius: 0
+  color: white
+
+.footer
+  background-color: #fff
+  height: 450px
+
+.srodek
+  margin-top: 100px
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.srodek > div > p
+  font-size: 8pt
+  text-align: justify
+
+.srodek > div > button
+  background-color: #000000
+  width: 80px
+  border: 0
+  border-radius: 0
+  color: white
+
+.srodek > div > input
+  border: 1px solid #607d8b
+  border-radius: 0
+
+.stopka
+  margin-top: 100px
+  text-align: left
+  border-top: 1px solid #607d8b
+
+.stopka > div > h4
+  font-size: 10pt

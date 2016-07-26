@@ -1,0 +1,338 @@
+html,
+body {
+  height: 100%;
+}
+
+/*NAWIGACJA*/
+#mainmenu > ul > li > a {
+  color: white;
+  font-family: 'Combo', sans-serif;
+  font-size:14pt;
+  padding: 15px;
+}
+
+@media (min-width: 767px) {
+
+    #mainmenu > ul > li > a:hover {
+      color: white;
+      background: rgba(255, 255, 255, 0.0);
+      border-radius: 30px;
+      -webkit-animation-name: menu_animation; /* Chrome, Safari, Opera*/
+      -webkit-animation-duration: 1s; /* Chrome, Safari, Opera*/
+      animation-name: menu_animation;
+      animation-duration: 1.0s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+
+    }
+}
+
+@-webkit-keyframes  menu_animation {
+  form {
+    color: white;
+    background: rgba(255, 255, 255, 0.0);
+  }
+  to {
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@keyframes  menu_animation {
+  form {
+    color: white;
+    background: rgba(255, 255, 255, 0.0);
+  }
+  to {
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+li.menu {
+  padding: 5px;
+}
+
+.navbar {
+ background: rgba(0, 0, 0, 0.7);
+ min-height: 50px;
+}
+
+a.navbar-brand > em {
+  color: white;
+  font-family: 'Ceviche One', sans-serif;
+  font-size: 24pt;
+}
+/*KONIEC NAWIGACJI*/
+
+/*PANEL HEADER*/
+.img_header{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+header > div > div > div > h2 {
+  color: white;
+  font-size: 72pt;
+  font-weight: bold;
+  font-family: 'Joti One', sans-serif;
+  font-variant: small-caps;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+div.oMnie {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 600px)) {
+  div.oMnie {
+    padding: 10px;
+  }
+}
+
+div.picturePerson {
+  text-align: center;
+}
+
+div.description {
+  border-left: 2px solid black;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+
+.tab-list {
+  margin: 0px;
+  padding: 0px;}
+
+.tab-list li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #0d47a1;
+  border-bottom: 3px solid #858585;
+  border-radius: 6px;
+  font-family: 'Jacques Francois', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.tab-list li a {
+  color: #f2f2f2;
+  display: block;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+}
+
+
+.tab-list li.active, .tab-list li.hover {
+  background-color: #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;
+}
+
+.tab-list li.active a, .tab-list li a:hover {
+  color: #666;
+  background-color: #e5e5e5;
+}
+
+.tab-panel {
+  display: none;
+  color: #666;
+  min-height: 300px;
+  overflow: visible;
+}
+
+.tab-panel.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-panel p {
+  margin: 20px;
+}
+
+
+.CV {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #666;
+    padding-left: 55px;
+    text-decoration: none;
+}
+
+.CV:hover {
+    color: black;
+}
+
+a[href$=".pdf"] {
+    background-image: url("../img/img_pdf.png");
+    font-size: 4em;
+    text-decoration: none;
+}
+
+
+h1.oMnie {
+  font-family: 'Ceviche One', sans-serif;
+}
+
+p.oMnie {
+  font-size: 1em;
+  font-family: 'Kalam', sans-serif;
+}
+
+div.gallery-page > div > div > h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-weight: bold;
+  font-size: 48pt;
+}
+
+div.gallery-page {
+  padding-bottom: 100px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.skills{
+  padding-bottom: 50px;
+}
+
+img.skills:hover {
+  -webkit-animation-name: skills_img; /* Chrome, Safari, Opera*/
+  -webkit-animation-duration: 0.7s; /* Chrome, Safari, Opera*/
+  animation-name: skills_img;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+  @-webkit-keyframes  skills_img {
+    form {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.4);
+    }
+  }
+
+  @keyframes  skills_img {
+    form {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.4);
+    }
+  }
+
+.contact{
+   background-color: rgb(49, 50, 69);
+   display: block;
+   width: 100%;
+   min-height: auto;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   color: white;
+}
+
+div.contact > div > div > div > h1 {
+  color: white;
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  min-height: auto;
+}
+
+footer.prawa {
+  color: white;
+  text-align: center;
+}
+
+address {
+  text-align: center;
+  padding: 50px;
+  font-size: 24pt;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+img.social_media {
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+
+input[type='text']:focus, textarea#message:focus {
+  border: 1px solid #fff;
+  background-color: #fff;
+  outline: none;
+}
+
+
+input[type='text'], textarea#message {
+  background-color: #997;
+  color: #666;
+  font-size: 14pt;
+  width: 95%;
+  padding: 4px 6px;
+  border-radius: 8px;
+}
+
+#feedmessage {
+  color: red;
+  background-repeat: no-repeat;
+  background-position: 2px 14px;
+  padding-top: 5px;
+}
+
+#emailCheck {
+  color: red;
+  background-repeat: no-repeat;
+  background-position: 2px 14px;
+  padding-top: 5px;
+}
+
+@media all and (max-width: 600px) {
+  .mapa {
+    display: none;
+  }
+}

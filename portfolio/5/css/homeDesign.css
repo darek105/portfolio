@@ -1,0 +1,129 @@
+.navbar{
+  background: rgba(171, 216, 219, 0.5);
+  min-height: 50px;
+}
+
+.navbar > div > div {
+  height: 50px;
+}
+
+a.navbar-brand > em{
+  font-family: 'Aladin';
+  font-size: 18pt;
+  color: white;
+}
+
+#mainmenu > ul > li > a {
+  font-family: 'Aladin';
+  font-size: 14pt;
+  color: white;
+}
+
+#mainmenu > ul > li a:hover {
+  font-family: 'Aladin';
+  font-size: 14pt;
+  color: black;
+}
+
+.main-photo {
+  background: url('../img/slider.jpg')  center center no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.caption {
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.caption p {
+  font-family: 'Caveat', sans-serif;
+  color: white;
+  font-size: 2.1em;
+}
+
+.features {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.features > div > div > p{
+  font-family: 'Aladin';
+  font-size: 14pt;
+}
+
+.features .glyphicon {
+  font-size: 60px;
+}
+
+#description-slajd > div > div > h1{
+  font-family: 'Caveat', sans-serif;
+  color: white;
+  font-size: 2.1em;
+}
+
+.opis {
+    font-family: 'Aladin';
+    font-size: 16pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.opis > div > div > h3{
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-family: 'Caveat', sans-serif;
+  font-size: 24pt;
+}
+
+.addresses-form {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.addresses-form .adres {
+  border-left: 1px solid black;
+  padding-left: 50px;
+}
+
+.foots {
+  background: rgba(171, 216, 219, 0.8);
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .opis > div > div > h3{
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: 'Caveat', sans-serif;
+    font-size:16pt;
+  }
+
+  .addresses-form {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .opis > div > div > h3{
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: 'Caveat', sans-serif;
+    font-size: 18pt;
+  }
+
+  #description-slajd > div > div > h1{
+    font-family: 'Caveat', sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+}

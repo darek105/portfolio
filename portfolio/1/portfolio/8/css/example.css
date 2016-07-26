@@ -1,0 +1,70 @@
+.arrow
+  background: #fff
+  color: black
+  display: inline-block
+  height: 40px
+  line-height: 40px
+  margin-left: 20px
+  padding: 0px 20px
+  position: relative
+  text-decoration: none
+
+.arrow:before,
+.arrow:after
+  position: absolute
+  content: ""
+  height: 0
+  width: 0
+
+.arrow:before
+  border-bottom: 20px solid #fff
+  border-left: 20px solid transparent
+  border-top: 20px solid #fff
+  left: -20px
+
+.arrow:after
+  border-bottom: 20px solid transparent
+  border-left: 20px solid #fff
+  border-top: 20px solid transparent
+  right: -20px
+
+#about
+  background: #E7F0F6
+  width: 100%
+  position: relative
+  z-index: 2
+  height: 500px
+
+.hexabox
+  width: 150px
+  height: 80px
+  background: white
+  position: relative
+
+.hexabox:before
+  content: ""
+  position: absolute
+  top: -50px
+  left: 0
+  height: 0
+  width: 0
+  border-left: 75px solid transparent
+  border-right: 75px solid transparent
+  border-bottom: 50px solid white
+
+.hexabox:after
+  content: ""
+  position: absolute
+  bottom: -50px
+  left: 0
+  height: 0
+  width: 0
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%
+  border-left: 75px solid transparent
+  border-right: 75px solid transparent
+  border-top: 50px solid white
+
+.box2,
+.box3,
+.box4
+  margin-left: 50px

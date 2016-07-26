@@ -1,0 +1,65 @@
+.skills {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 10px;
+      max-width: 100px;
+      min-width: 300px;
+      min-height: 10em;
+      font-size: 130%;
+      position: relative;
+      display: block;
+      margin-top: 65px;
+      margin-right: 20px;
+      margin-left: 50px;
+      float: right;
+  }
+
+.skills h1 {
+    font-family: 'Caveat Brush', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    color: white;
+}
+.opis p{
+  font-family: 'Caveat Brush', sans-serif;
+  text-align: left;
+  font-size: 24pt;
+  color: white;
+  margin: 70px 70px;
+
+}
+
+  .progress{
+    height:20px;
+    margin-bottom:20px;
+    overflow:hidden;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius:7px;
+  }
+  .progress-bar-web{float:left;
+    width:0;
+    height:100%;
+    font-size:12pt;
+    font-family:"Indie Flower",cursive;
+    font-weight: bold;
+    line-height:20px;
+    color:#fff;
+    text-align:center;
+    background-color:#337ab7;
+    -webkit-transition:width .6s ease;
+    -o-transition:width .6s ease;transition:width .6s ease
+  }
+  .progress-bar-inne{
+    float:left;
+    width:0;
+    height:100%;
+    font-size:12pt;
+    font-family:"Indie Flower",cursive;
+    font-weight: bold;
+    line-height:20px;
+    color:#fff;
+    text-align:center;
+    background-color:#5F9EA0;
+    -webkit-transition:width .6s ease;
+    -o-transition:width .6s ease;transition:width .6s ease
+  }

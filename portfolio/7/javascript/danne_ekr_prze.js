@@ -1,0 +1,10 @@
+var msg = '<p>Program wyświetla informacje o szerokości i wysokości ekranu jak i szerokości okna przeglądarki oraz inne dodatkowe informacje o stronie.</p>';
+msg += '<h2>okno przeglądarki</h2><p>szerokośc: ' + window.innerWidth + '</p>';
+msg += '<p>wysokośc: '+ window.innerHeight + '<p>';
+msg += '<h2>ekran</h2><p>szerokośc: ' + window.screen.width + '</p>';
+msg += '<p>wysokośc:' + window.screen.height + '</p>';
+msg += '<h2>Tytuł strony</h2><p> ' + document.title + '</p>';
+msg += '<h2>Adres strony</h2><p> ' + document.URL + '</p>';
+msg += '<h2>Ostatnia modyfikacja</h2><p> ' + document.lastModified + '</p>';
+var el = document.getElementById('ekran');
+el.innerHTML = msg;
